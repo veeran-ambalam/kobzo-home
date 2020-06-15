@@ -1,7 +1,7 @@
 import React from 'react'
 import * as Icon from 'react-feather'
 import ReactWOW from 'react-wow'
-import Contact from '../Contact/Contact'
+import Contact from '../contact/Contact'
 
 export default function FeaturesContent() {
     return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Preloader, Placeholder } from 'react-preloading-screen'
 import FeaturesContent from './features/Digital-Employee-Engagement'
-import Layout from '../components/Layout'
+import Layout from '../components/layout'
 import SEO from "../components/seo"
 
 class Features extends React.Component {

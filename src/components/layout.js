@@ -9,7 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import Header from "./header"
-import Footer from "./footer"
+import Footer from "./Footer"
 import GoTop from '../pages/GoTop';
 import Form from '../pages/main/MainForm'
 
