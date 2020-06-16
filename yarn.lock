@@ -10853,14 +10853,6 @@ raw-loader@^0.5.1:
   resolved "https://registry.yarnpkg.com/raw-loader/-/raw-loader-0.5.1.tgz#0c3d0beaed8a01c966d9787bf778281252a979aa"
   integrity sha1-DD0L6u2KAclm2Xh793goElKpeao=
 
-razorpay@^2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/razorpay/-/razorpay-2.0.6.tgz#0d92ee40c2b90a6382b2f136542e9775e39f1d17"
-  integrity sha512-tWdV+WfRuuQSGQcGtUXmsPx5WO3QPrEKegy+AbGWT1STD5kxIYW0KHjdspu7YnTTP3q7ekwHDUYYjG8zSR5IiQ==
-  dependencies:
-    promise "^8.0.1"
-    request "^2.88.0"
-    request-promise "^4.2.2"
 
 rc@^1.2.7, rc@^1.2.8:
   version "1.2.8"

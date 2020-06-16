@@ -10,8 +10,7 @@ export const GlobalDispatchContext = React.createContext()
 
 const initialState =
   typeof window !== "undefined"
-    ? JSON.parse(localStorage.getItem("product")) || { product: [] }
-    : { product: [] }
+    ? JSON.parse(localStorage.getItem("product")) || { product: [] } : { product: [] };
 // console.log(initialState)
 
 function reducer(state, action) {

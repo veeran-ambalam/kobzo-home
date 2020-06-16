@@ -20,18 +20,18 @@ class CheckoutBody extends React.Component {
     static contextType = GlobalStateContext
     
 
-    componentDidMount(){
-        const script = document.createElement('script');
-        script.src = 'https://checkout.razorpay.com/v1/checkout.js';
-        script.async = true;
-        document.body.appendChild(script);
+    // componentDidMount(){
+    //     const script = document.createElement('script');
+    //     script.src = 'https://checkout.razorpay.com/v1/checkout.js';
+    //     script.async = true;
+    //     document.body.appendChild(script);
 
-        const context = this.context;
-        console.log(context)
-        //It will get the data from context, and put it into the state.
-        this.setState({ products: context.product });
+    //     const context = this.context;
+    //     console.log(context)
+    //     //It will get the data from context, and put it into the state.
+    //     this.setState({ products: context.product });
         
-    }
+    // }
 
     handleOnChange(e) {
         let firstName   = document.getElementById('firstName').value.trim();

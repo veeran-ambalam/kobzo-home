@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
     <>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <link rel="icon" type="image/png" href={require("../images/favicon.png")}></link>
-        <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+        {/* <script src="https://checkout.razorpay.com/v1/checkout.js"></script> */}
         <Header />
         <main>{children}</main>
         <Form />
