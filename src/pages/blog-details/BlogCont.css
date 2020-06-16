@@ -1,0 +1,17 @@
+/* .container {
+    border: 3px solid blue;
+    padding: 20px 40px 40px;
+    max-width: 640px;
+    } */
+.containerimage {
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+    }
+/* .containertext {
+        display: inline-block;
+        width: 46%;
+        @media (max-width: 620px) {
+            width: 100%;
+        }
+    } */

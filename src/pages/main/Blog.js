@@ -12,7 +12,38 @@ export default class Blog extends React.Component {
                         <div className="bar"></div>
                     </div>
 
+                    
+
                     <div className="row">
+                    <div className="col-lg-4 col-md-6">
+                            <div className="single-blog-post">
+                                <div className="blog-image">
+                                    <Link to="/KobZos-Work-Life-Balance">
+                                        <img src={require("../../images/blog-image/blog4_banner.png")} alt="blog" />
+                                    </Link>
+
+                                    <div className="date">
+                                        <Icon.Calendar /> June 17, 2020
+                                    </div>
+                                </div>
+
+                                <div className="blog-post-content">
+                                    <h3>
+                                        <Link to="/KobZos-Work-Life-Balance">
+                                            Work Life Balance 
+                                        </Link>
+                                    </h3>
+                                    <p>The year of 2020 was expected to be a golden year for the industry sector. But everything turned out just the opposite of what was planned and predicted. The pandemic changed the working cycle around the world. Unemployment became one of the key concerns of employees. But apart from that, employees also started panicking, stressing and overloading themselves with work that might not even be required. Now we have come to a point where work from home has become our new normal. But have we actually adapted to it? </p>
+
+                                    <Link className="read-more-btn" to="/KobZos-Work-Life-Balance">
+                                        Know More <Icon.ArrowRight />
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+
                         <div className="col-lg-4 col-md-6">
                             <div className="single-blog-post">
                                 <div className="blog-image">
