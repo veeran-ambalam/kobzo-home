@@ -4,6 +4,7 @@
     max-width: 640px;
     } */
 .containerimage {
+        border: 30px solid white;
         display: inline-block;
         vertical-align: top;
         width: 100%;
