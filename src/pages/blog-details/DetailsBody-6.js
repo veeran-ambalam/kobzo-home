@@ -257,7 +257,7 @@ export default class BlogBody extends React.Component {
                         class="containerimage"
                         src={require("../../images/blog-image/blog4_9.jpg")}
                         alt="Make Your Checklist"
-                        style={{}}
+                        style={{width : 500 , height : 640}}
                       ></img>
 
                       <div class="containertext">
