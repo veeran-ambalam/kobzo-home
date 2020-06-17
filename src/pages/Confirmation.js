@@ -1,5 +1,5 @@
 import React from 'react'
-import { Preloader, Placeholder } from 'react-preloading-screen'
+   
 import PageTitle from './Confirmation/PageTitle';
 import CheckoutBody from './Confirmation/CheckoutBody';
 import Layout from '../components/layout'
@@ -7,13 +7,7 @@ class Cart extends React.Component {
     render() {
         return (
             <Layout>
-            <Preloader>
-                <Placeholder>
-                    <div className="preloader">
-                        <div className="spinner"></div>
-                    </div>
-                </Placeholder>
-                <div className="page-title-area">
+              <div className="page-title-area">
                     <div className="d-table">
                         <div className="d-table-cell">
                             <div className="container">
@@ -23,7 +17,6 @@ class Cart extends React.Component {
                     </div>
                 </div>
                 <CheckoutBody />
-            </Preloader>
             </Layout>
         )
     }

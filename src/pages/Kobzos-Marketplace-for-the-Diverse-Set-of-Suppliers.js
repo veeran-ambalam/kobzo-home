@@ -1,5 +1,5 @@
 import React from "react"
-import { Preloader, Placeholder } from "react-preloading-screen"
+  
 
 import Blog from "./blog-details/Kobzos-Marketplace-for-the-Diverse-Set-of-Suppliers"
 
@@ -12,14 +12,7 @@ const IndexPage = () => (
       title=" Blog | Kobzo’s Marketplace for the Diverse Set of Suppliers"
       description="How technology, digitalization and AI have revolutionized and enhanced the procurement and selling processes for companies."
     />
-    <Preloader>
-      <Placeholder>
-        <div className="preloader">
-          <div className="spinner"></div>
-        </div>
-      </Placeholder>
-      <Blog />
-    </Preloader>
+    <Blog />
   </Layout>
 )
 

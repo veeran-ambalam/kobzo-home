@@ -1,7 +1,7 @@
 import React from "react"
 import { navigate } from "gatsby"
 import * as Icon from "react-feather"
-import { Preloader, Placeholder } from "react-preloading-screen"
+  
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 
@@ -38,12 +38,10 @@ const Products = props => {
   return (
     <Layout>
       <SEO title="Yoga For Focus and Vitality - Digital Employee Engagement" />
-      <Preloader>
-        <Placeholder>
-          <div className="preloader">
-            <div className="spinner"></div>
-          </div>
-        </Placeholder>
+     
+          
+      
+         
         <section className="shop-details-area ptb-160">
           <div className="container">
             <div className="row align-items-center">
@@ -161,7 +159,7 @@ const Products = props => {
             </div>
           </div>
         </section>
-      </Preloader>
+         
     </Layout>
   )
 }

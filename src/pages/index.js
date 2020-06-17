@@ -1,5 +1,5 @@
 import React from "react"
-import { Preloader, Placeholder } from 'react-preloading-screen';
+ 
 
 import MainBanner from './main/MainBanner'
 import DeliveryBanner from './main/DeliveryBanner'
@@ -14,12 +14,6 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Kobzo: Gateway to your Smart Workplace" />
-        <Preloader>
-            <Placeholder>
-                <div className="preloader">
-                    <div className="spinner"></div>
-                </div>
-            </Placeholder>
             <MainBanner />
             <Services />
             <DeliveryBanner />
@@ -27,7 +21,6 @@ const IndexPage = () => (
             <DigitalSales />
             <Partner />
             <Blog />
-        </Preloader>
   </Layout>
 )
 

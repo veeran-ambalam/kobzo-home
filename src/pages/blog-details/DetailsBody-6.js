@@ -80,7 +80,8 @@ export default class BlogBody extends React.Component {
               <div className="col-lg-8 col-md-12 offset-lg-2">
                 <div className="blog-details">
                   <div className="article-img">
-                    <img class = "containerimage"
+                    <img
+                      className="containerimage"
                       src={require("../../images/blog-image/blog4_banner.png")}
                       alt="blog-details"
                     />
@@ -101,7 +102,7 @@ export default class BlogBody extends React.Component {
                         <button className="btn">KOBZO</button>
                       </li>
                     </ul>
-                    <div class="containertext">
+                    <div className="containertext">
                       <h3>
                         Working from home? Find it hard to manage work and home?
                       </h3>
@@ -132,32 +133,39 @@ export default class BlogBody extends React.Component {
                         create a wonderful work-life balance that does not fall
                         prey to the above-mentioned problems:
                       </p>
-
-                      <img
-                        class="containerimage"
-                        src={require("../../images/blog-image/blog4_1.jpg")}
-                        alt="Make Your Checklist"
-                      ></img>
-                      <div class="containertext">
-                        <h4>1. Create your Check-list</h4>
-                        <p>
-                          It is difficult to come out of the comfort zone of
-                          staying at home and fitting your work schedule in it.
-                          But instead of doing it all together, planning out the
-                          day is important. In your free time, make a note of
-                          all the work you have to do which includes both
-                          professional and personal work. Divide time
-                          accordingly and place it where its visible to you. If
-                          something has not be done then shift it to the next
-                          day instead of over stressing about it. Changing your
-                          daily routine is difficult but consistent effort can
-                          bring this change.
-                        </p>
+                      <div class="row">
+                        <div class="column">
+                          <img
+                            className="containerimage"
+                            src={require("../../images/blog-image/blog4_1.jpg")}
+                            alt="Make Your Checklist"
+                          ></img>
+                        </div>
+                        <div class="column">
+                          <div className="containertext">
+                            <h4>1. Create your Check-list</h4>
+                            <p>
+                              It is difficult to come out of the comfort zone of
+                              staying at home and fitting your work schedule in
+                              it. But instead of doing it all together, planning
+                              out the day is important. In your free time, make
+                              a note of all the work you have to do which
+                              includes both professional and personal work.
+                              Divide time accordingly and place it where its
+                              visible to you. If something has not be done then
+                              shift it to the next day instead of over stressing
+                              about it. Changing your daily routine is difficult
+                              but consistent effort can bring this change.
+                            </p>
+                          </div>
+                        </div>
                       </div>
 
-                      <h4>2. Create your own workspace</h4>
+                      <h4 style={{ padding: 10 }}>
+                        2. Create your own workspace
+                      </h4>
 
-                      <p>
+                      <p style={{ padding: 5 }}>
                         Working on the bed can be very tempting but it is also
                         highly unhealthy in the long run. You cannot work in the
                         same place where you also spend your hours sleeping. Not
@@ -168,7 +176,9 @@ export default class BlogBody extends React.Component {
                         and chair will be more handy in such conditions.{" "}
                       </p>
 
-                      <h4>3. Don’t hesitate, just ask.</h4>
+                      <h4 style={{ padding: 10 }}>
+                        3. Don’t hesitate, just ask.
+                      </h4>
 
                       <p>
                         Indecisiveness in asking for help and lack of
@@ -183,7 +193,58 @@ export default class BlogBody extends React.Component {
                         well-being.
                       </p>
 
-                      <h4>4. Work on your hobbies</h4>
+                      <h4 style={{ padding: 10 }}>
+                        4. Smash your Distractions
+                      </h4>
+
+                      <p>
+                        It gets very tempting when there is a new notification
+                        on your phone but it always starts with one notification
+                        and before you know half the day has passed by. While
+                        working try to switch of data for all the social media
+                        and play some soothing music which will keep you focused
+                        and positive. Set your targets and once completed reward
+                        yourself with some free time. That will help you
+                        maintain a balance.
+                      </p>
+
+                      <div class="row">
+                        <div class="column">
+                          <div className="containertext">
+                            <h4>5. Never run out of dreams</h4>
+                            <p>
+                              There is no full stop to the goals you have to
+                              achieve. You always have a long way to go and no
+                              crisis can stop it from happening. This is only a
+                              bad phase of life which will go eventually. Life
+                              has a lot more for you to achieve and be to proud
+                              of. Nothing is unachievable if persistent hard
+                              work and motivation is present.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="column">
+                          <img
+                            className="containerimage"
+                            src={require("../../images/blog-image/blog4_7.jpg")}
+                            alt="Never run out of dreams"
+                          ></img>
+                        </div>
+                      </div>
+
+                      <h4 style={{ padding: 10 }}>6. Live at the moment</h4>
+
+                      <p>
+                        The major distraction while working is over thinking
+                        about something that is unnecessary. It leads to delay
+                        in daily routine and actually leads you nowhere. Stop
+                        having the fear of unemployment and just give your 100
+                        percent to what you have now. Thinking about past or
+                        future decisions will only create redundant pressure.
+                        Live in the moment and work in the moment.{" "}
+                      </p>
+
+                      <h4 style={{ padding: 10 }}>7. Work on your hobbies</h4>
 
                       <p>
                         Don’t just list your hobbies on your resumes and
@@ -199,50 +260,7 @@ export default class BlogBody extends React.Component {
                         then even watching something is like a vacation.
                       </p>
 
-                      <h4>5. Smash your Distractions</h4>
-
-                      <p>
-                        It gets very tempting when there is a new notification
-                        on your phone but it always starts with one notification
-                        and before you know half the day has passed by. While
-                        working try to switch of data for all the social media
-                        and play some soothing music which will keep you focused
-                        and positive. Set your targets and once completed reward
-                        yourself with some free time. That will help you
-                        maintain a balance.
-                      </p>
-
-                      <h4>6. Live at the moment</h4>
-
-                      <p>
-                        The major distraction while working is over thinking
-                        about something that is unnecessary. It leads to delay
-                        in daily routine and actually leads you nowhere. Stop
-                        having the fear of unemployment and just give your 100
-                        percent to what you have now. Thinking about past or
-                        future decisions will only create redundant pressure.
-                        Live in the moment and work in the moment.{" "}
-                      </p>
-
-                      <img
-                        class="containerimage"
-                        src={require("../../images/blog-image/blog4_7.jpg")}
-                        alt="Make Your Checklist"
-                      ></img>
-                      <div class="containertext">
-                        <h4>7. Never run out of dreams</h4>
-                        <p>
-                          There is no full stop to the goals you have to
-                          achieve. You always have a long way to go and no
-                          crisis can stop it from happening. This is only a bad
-                          phase of life which will go eventually. Life has a lot
-                          more for you to achieve and be to proud of. Nothing is
-                          unachievable if persistent hard work and motivation is
-                          present.
-                        </p>
-                      </div>
-
-                      <h4>8. Exercise</h4>
+                      <h4 style={{ padding: 10 }}>8. Exercise</h4>
 
                       <p>
                         As challenging as it sounds, taking out sometime to
@@ -253,45 +271,53 @@ export default class BlogBody extends React.Component {
                         your muscles relax.
                       </p>
 
-                      <img
-                        class="containerimage"
-                        src={require("../../images/blog-image/blog4_9.jpg")}
-                        alt="Make Your Checklist"
-                        style={{width : 500 , height : 640}}
-                      ></img>
+                      <div class="row">
+                        <div class="column">
+                          <img
+                            className="containerimage"
+                            src={require("../../images/blog-image/blog4_9.jpg")}
+                            alt="Stay Hydrated"
+                            style={{ width: 500, height: 640 }}
+                          ></img>
+                        </div>
+                        <div class="column">
+                          <div className="containertext">
+                            <h4>9. Drink Water</h4>
 
-                      <div class="containertext">
-                        <h4>9. Drink Water</h4>
+                            <p>
+                              Though this is the most conventional point, people
+                              often tend to forget it. Keeping yourself hydrated
+                              is a necessity. Keep two bottles beside you and
+                              set an alarm of having water every hour. That is
+                              the only distraction you need while working.{" "}
+                            </p>
 
-                        <p>
-                          Though this is the most conventional point, people
-                          often tend to forget it. Keeping yourself hydrated is
-                          a necessity. Keep two bottles beside you and set an
-                          alarm of having water every hour. That is the only
-                          distraction you need while working.{" "}
-                        </p>
+                            <h4 style={{ padding: 10 }}>
+                              10. Take out some family time
+                            </h4>
 
-                        <h4>10. Take out some family time</h4>
+                            <p>
+                              Work is important. It gives you bread and butter
+                              but don’t forget the people you will be sharing
+                              this bread and butter with. Remember what they
+                              mean to you and how important they are. Be vocal
+                              about the hurdles you are facing, share your
+                              opinions and be more involved in family
+                              discussions. If you are an introvert just sit and
+                              listen to what they are saying. That helps you be
+                              more yourself and stay grounded.
+                            </p>
 
-                        <p>
-                          Work is important. It gives you bread and butter but
-                          don’t forget the people you will be sharing this bread
-                          and butter with. Remember what they mean to you and
-                          how important they are. Be vocal about the hurdles you
-                          are facing, share your opinions and be more involved
-                          in family discussions. If you are an introvert just
-                          sit and listen to what they are saying. That helps you
-                          be more yourself and stay grounded.
-                        </p>
-
-                        <p>
-                          People are talking about depression and mental health.
-                          This Pandemic is a wakeup call for all the people who
-                          took their life for granted and were not maintaining a
-                          work life balance. Take the initiative and start
-                          working on yourself ,everything else will fall into
-                          place eventually.
-                        </p>
+                            <p>
+                              People are talking about depression and mental
+                              health. This Pandemic is a wakeup call for all the
+                              people who took their life for granted and were
+                              not maintaining a work life balance. Take the
+                              initiative and start working on yourself
+                              ,everything else will fall into place eventually.
+                            </p>
+                          </div>
+                        </div>
                       </div>
                       <blockquote className="blockquote">
                         <p>
