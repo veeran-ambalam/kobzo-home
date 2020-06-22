@@ -117,7 +117,7 @@ export default class BlogBody extends React.Component {
                         and overloading themselves with work that might not even
                         be required. Now we have come to a point where work from
                         home has become our new normal. But have we actually
-                        adapted to it?{" "}
+                        adapted to it?
                       </p>
 
                       <p>
@@ -125,7 +125,7 @@ export default class BlogBody extends React.Component {
                         with having work and household chores in the same place.
                         The confusion has led to living both lives at the same
                         time and ultimately causing a lot of stress and
-                        disturbance in their personal life.{" "}
+                        disturbance in their personal life.
                       </p>
 
                       <p>
@@ -161,9 +161,7 @@ export default class BlogBody extends React.Component {
                         </div>
                       </div>
 
-                      <h4 style={{ padding: 10 }}>
-                        2. Create your own workspace
-                      </h4>
+                      <h4>2. Create your own workspace</h4>
 
                       <p style={{ padding: 5 }}>
                         Working on the bed can be very tempting but it is also
@@ -173,12 +171,10 @@ export default class BlogBody extends React.Component {
                         disrupts the sleep cycle and keeps your body inactive.
                         Find a separate place where you can work in peace and
                         can stay active. Having a desk or a small portable desk
-                        and chair will be more handy in such conditions.{" "}
+                        and chair will be more handy in such conditions.
                       </p>
 
-                      <h4 style={{ padding: 10 }}>
-                        3. Don’t hesitate, just ask.
-                      </h4>
+                      <h4>3. Don’t hesitate, just ask.</h4>
 
                       <p>
                         Indecisiveness in asking for help and lack of
@@ -193,9 +189,7 @@ export default class BlogBody extends React.Component {
                         well-being.
                       </p>
 
-                      <h4 style={{ padding: 10 }}>
-                        4. Smash your Distractions
-                      </h4>
+                      <h4>4. Smash your Distractions</h4>
 
                       <p>
                         It gets very tempting when there is a new notification
@@ -232,7 +226,7 @@ export default class BlogBody extends React.Component {
                         </div>
                       </div>
 
-                      <h4 style={{ padding: 10 }}>6. Live at the moment</h4>
+                      <h4>6. Live at the moment</h4>
 
                       <p>
                         The major distraction while working is over thinking
@@ -241,10 +235,10 @@ export default class BlogBody extends React.Component {
                         having the fear of unemployment and just give your 100
                         percent to what you have now. Thinking about past or
                         future decisions will only create redundant pressure.
-                        Live in the moment and work in the moment.{" "}
+                        Live in the moment and work in the moment.
                       </p>
 
-                      <h4 style={{ padding: 10 }}>7. Work on your hobbies</h4>
+                      <h4>7. Work on your hobbies</h4>
 
                       <p>
                         Don’t just list your hobbies on your resumes and
@@ -260,7 +254,7 @@ export default class BlogBody extends React.Component {
                         then even watching something is like a vacation.
                       </p>
 
-                      <h4 style={{ padding: 10 }}>8. Exercise</h4>
+                      <h4>8. Exercise</h4>
 
                       <p>
                         As challenging as it sounds, taking out sometime to
@@ -289,12 +283,10 @@ export default class BlogBody extends React.Component {
                               often tend to forget it. Keeping yourself hydrated
                               is a necessity. Keep two bottles beside you and
                               set an alarm of having water every hour. That is
-                              the only distraction you need while working.{" "}
+                              the only distraction you need while working.
                             </p>
 
-                            <h4 style={{ padding: 10 }}>
-                              10. Take out some family time
-                            </h4>
+                            <h4>10. Take out some family time</h4>
 
                             <p>
                               Work is important. It gives you bread and butter
